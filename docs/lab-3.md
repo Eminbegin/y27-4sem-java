@@ -17,6 +17,7 @@ Spring Framework, Spring Boot, JpaRepository, REST API, Dependency Injection, Sw
 ## Нефункциональные требования
 
 - Использовать Dependency Injection
+- Контроллеры не должны отдавать доменные сущности
 - Репозитории должны быть Spring Bean'ами (наследоваться от JpaRepository)
 - Строгое соблюдение REST спецификации для эндпоинтов
 - Все эндпоинты должны иметь описание возможных кодов в Swagger документации
